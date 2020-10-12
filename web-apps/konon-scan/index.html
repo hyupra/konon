@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Scan Tiket</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+  </head>
+  <style>html, body {font-family: "Poppins"; background-color: #7f57ff;}</style>
+  <body>
+
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<script>
+swal("Masukan kode konser:", {
+    content: "input",
+  })
+  .then((value) => {
+    window.location = "/scan.html"
+  });
+</script>
+</body>
+</html>
