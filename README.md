@@ -4,7 +4,9 @@
 - Clone this repository
 - ``$ cd web-apps``
 - import ``konon.sql`` to phpmyadmin
+- ``$ cd client && npm install``
 - ``$ npm run client`` to run frontend server (vue js)
+- ``$ cd server && npm install``
 - ``$ npm run server`` to run backend server (node js)
 
 <img src="https://1.bp.blogspot.com/-CwMiqVO7_pk/X4O-x1EQeRI/AAAAAAAAKrI/7hIuKh8lGjEJvFpeL0YeKYyymzxzrksXACLcBGAsYHQ/s1920/capture1.png" width="500"/>
